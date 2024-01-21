@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T15:37:24.910Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="uYnyCjJx6Thb-Y-4qZuO" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T15:41:28.272Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Vlwip1SRUN636DG1UOuN" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="819" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,9 +51,6 @@
         </mxCell>
         <mxCell id="hCGzU1FnIlVh0Djb2f15-7" value="&lt;div&gt;+ DBconnect(): void&lt;br&gt;+ DBselect(query string): [][]interface{}, error&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hCGzU1FnIlVh0Djb2f15-4">
           <mxGeometry y="138" width="249" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="hCGzU1FnIlVh0Djb2f15-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.736;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PTu3D1YrOqoHsNMgezqt-14" target="PTu3D1YrOqoHsNMgezqt-14">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hCGzU1FnIlVh0Djb2f15-18" value="&lt;div&gt;use&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="393" y="325" width="40" height="30" as="geometry" />
