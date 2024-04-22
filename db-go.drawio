@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T17:29:52.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="fGny_BmEUc_NWoT4m8hF" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T06:00:35.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="chz6hJnhN0Ikw9oGJnlH" version="24.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,16 +7,16 @@
         <mxCell id="lZEyB0sZOzwZCweGVNaK-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ db: *sql.DB&lt;br&gt;+ isInTx: bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ err: error&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Select(query string): [][]interface{}, error&lt;br&gt;+ Exec(query string): int64&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;span style=&quot;white-space: pre;&quot;&gt;Begin(&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;): &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;error&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;span style=&quot;white-space: pre;&quot;&gt;Commit(&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;): &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;error&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;span style=&quot;white-space: pre;&quot;&gt;Rollback(&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;): &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;error&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;+ Close() error&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="294" y="140" width="240" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="1J60rX15PZUawXBniUj4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1J60rX15PZUawXBniUj4-0" target="lZEyB0sZOzwZCweGVNaK-5">
+        <mxCell id="1J60rX15PZUawXBniUj4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1J60rX15PZUawXBniUj4-0" target="lZEyB0sZOzwZCweGVNaK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1J60rX15PZUawXBniUj4-0" value="&lt;div&gt;mysql&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="1J60rX15PZUawXBniUj4-0" value="&lt;div&gt;mysql&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="420" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1J60rX15PZUawXBniUj4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1J60rX15PZUawXBniUj4-1" target="lZEyB0sZOzwZCweGVNaK-5">
+        <mxCell id="1J60rX15PZUawXBniUj4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;curved=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1J60rX15PZUawXBniUj4-1" target="lZEyB0sZOzwZCweGVNaK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1J60rX15PZUawXBniUj4-1" value="psql" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="1J60rX15PZUawXBniUj4-1" value="psql" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="420" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
